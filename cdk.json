@@ -1,5 +1,5 @@
 {
-  "app": "npm i && npx ts-node --prefer-ts-exts bin/sng-test-with-aws-cdk.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/sng-test-with-aws-cdk.ts",
   "watch": {
     "include": ["**"],
     "exclude": [
