@@ -34,7 +34,11 @@ export async function getAll(
 
     return {
       statusCode: 200,
-      body: JSON.stringify({votesForThisYear}),
+      body: JSON.stringify({
+        awardName,
+        year,
+        nominees: votesForThisYear,
+      }),
     };
   } catch (err) {
     console.log(err);
